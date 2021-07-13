@@ -6,7 +6,8 @@
   "types": "src/index.d.ts",
   "scripts": {
     "test": "ava",
-    "publish": "beachball publish"
+    "changelog": "beachball",
+    "publish": "beachball publish -b main"
   },
   "author": "Xavier Drdak",
   "license": "ISC",
