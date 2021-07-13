@@ -1,6 +1,6 @@
 import snakecase from "lodash.snakecase";
 
-export function camelizeAccesor(obj) {
+export function camelizeProxy(obj) {
   const handler = {
     get: (target, prop) => {
       const value = target[snakecase(prop)];

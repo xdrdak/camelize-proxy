@@ -1,15 +1,15 @@
 import test from "ava";
-import { camelizeAccesor } from "./index.js";
+import { camelizeProxy } from "./index.js";
 
 test("should allow camelCase accessors", (t) => {
-  const proxied = camelizeAccesor({
+  const proxied = camelizeProxy({
     my_value: "it works",
   });
   t.is(proxied.myValue, "it works");
 });
 
 test("should handled nested accesors", (t) => {
-  const proxied = camelizeAccesor({
+  const proxied = camelizeProxy({
     my_value: {
       another_value: {
         we_nesting_hard_here_boys: "it works",
@@ -20,14 +20,14 @@ test("should handled nested accesors", (t) => {
 });
 
 test("should allow snake_case accessors", (t) => {
-  const proxied = camelizeAccesor({
+  const proxied = camelizeProxy({
     my_value: "it works",
   });
   t.is(proxied.my_value, "it works");
 });
 
 test("should fail when the property is not existant", (t) => {
-  const proxied = camelizeAccesor({
+  const proxied = camelizeProxy({
     my_value: 'it works',
   });
   t.falsy(proxied.myNonExistantValue);
