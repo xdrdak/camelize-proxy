@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "use homegrown snakecase",
-  "packageName": "camelize-proxy",
-  "email": "1198051+xdrdak@users.noreply.github.com",
-  "dependentChangeType": "patch"
-}

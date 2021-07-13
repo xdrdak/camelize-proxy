@@ -2,6 +2,21 @@
   "name": "camelize-proxy",
   "entries": [
     {
+      "date": "Tue, 13 Jul 2021 22:31:09 GMT",
+      "tag": "camelize-proxy_v1.1.0",
+      "version": "1.1.0",
+      "comments": {
+        "minor": [
+          {
+            "comment": "use homegrown snakecase",
+            "author": "1198051+xdrdak@users.noreply.github.com",
+            "commit": "e17d0a44fe41bcbfa77023d3d049101ebf9c4d5f",
+            "package": "camelize-proxy"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 13 Jul 2021 20:09:05 GMT",
       "tag": "camelize-proxy_v1.0.0",
       "version": "1.0.0",
