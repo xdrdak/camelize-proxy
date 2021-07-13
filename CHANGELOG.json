@@ -1,0 +1,20 @@
+{
+  "name": "camelize-proxy",
+  "entries": [
+    {
+      "date": "Tue, 13 Jul 2021 20:09:05 GMT",
+      "tag": "camelize-proxy_v1.0.0",
+      "version": "1.0.0",
+      "comments": {
+        "major": [
+          {
+            "comment": "Add camelizeProxy feature",
+            "author": "1198051+xdrdak@users.noreply.github.com",
+            "commit": "e7064301f71c3e8dded9cf3ed454c6899c2687ab",
+            "package": "camelize-proxy"
+          }
+        ]
+      }
+    }
+  ]
+}
