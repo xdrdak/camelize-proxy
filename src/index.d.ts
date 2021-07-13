@@ -1,0 +1,1 @@
+export function camelizeAccesor<T = any>(obj: T): T;

@@ -1,0 +1,19 @@
+{
+  "name": "camelize-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Xavier Drdak",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.snakecase": "^4.1.1"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "beachball": "^2.6.2"
+  }
+}
