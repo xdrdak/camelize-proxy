@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "publish": "beachball publish"
   },
   "author": "Xavier Drdak",
   "license": "ISC",
